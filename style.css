@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Muli', sans-serif;
-    background-image: url("asset/icon.png");
+    background-image: url("https://i.imgur.com/5soSZ3T.png");
 }
 
 h1 {
@@ -47,7 +47,7 @@ button {
 }
 
 #container {
-    width:55%;
+    width:90%;
     margin:auto;
     padding: 25px 25px 40px 25px;
     background-color: rgba(224,208,206, 0.5);
