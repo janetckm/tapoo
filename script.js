@@ -1,13 +1,5 @@
 (function() {
   var questions = [{
-    question: "What is your expertise?",
-    choices: ["Engineering", "Architecture", "Computer Science", "Astronomy", "Others"],
-    getFive: 0,
-    getFour: 1,
-    getThree: 2,
-    getTwo: 3,
-    getOne: 4
-  }, {
     question: "What is your Age?",
     choices: ["18-29", "30-39", "40-49", "50-59", "60 or older"],
     getFive: 0,
@@ -16,10 +8,12 @@
     getTwo: 3,
     getOne: 4
   }, {
-    question: "What is Your Sexuality? (For Data Collection Only)",
-    choices: ["Male", "Female", "Intersex", "MtF Female", "FtM Male"],
+    question: "How often have you exercised in the last week?",
+    choices: ["Everyday", "Sometimes", "Never"],
+    getTwo: 0,
+    getOne: 1
   }, {
-    question: "When did you last eat ",
+    question: "When did you last eat?",
     choices: ["0 - 1 hours ago", "2 - 3 hours ago", "4 - 5 hours ago", "6 - 7 hours ago", "More than 8 hours ago"],
     getFive: 0,
     getFour: 1,
@@ -27,8 +21,8 @@
     getTwo: 3,
     getOne: 4
   }, {
-    question: "What food did you eat most?",
-    choices: ["Insect", "Mycelium", "Cereal", "Vegetable", "Water"],
+    question: "What food did you eat most last week?",
+    choices: ["Insect", "Mycelium (Yeast)", "Soy Bean", "Vegetables", "Cereal"],
     getFive: 0,
     getFour: 1,
     getThree: 2,
